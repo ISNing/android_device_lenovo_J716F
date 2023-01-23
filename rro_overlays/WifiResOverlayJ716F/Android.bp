@@ -1,0 +1,7 @@
+runtime_resource_overlay {
+    name: "WifiResOverlayJ716F",
+    theme: "WifiResOverlayJ716F",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true
+}

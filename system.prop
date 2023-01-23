@@ -1,0 +1,118 @@
+# Audio
+tunnel.audio.encode=true
+
+# Bluetooth
+bt.aptx.enable=1
+bt.enable.inbandring=true
+persist.bluetooth.disableinbandringing=false
+persist.vendor.btstack.aac_frm_ctl.enabled=true
+ro.bluetooth.library_name=libbluetooth_qti.so
+
+# Camera
+vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,com.motorola.motocit,com.zui.camera,org.lineageos.snap,org.lineageos.aperture,org.lineageos.aperture.dev
+
+# Charger
+ro.charger.disable_init_blank=true
+
+# CNE
+persist.vendor.cne.feature=1
+
+# Display
+debug.sf.enable_hwc_vds=1
+persist.vendor.color.matrix=2
+debug.sf.enable_hwc_vds=1
+debug.sf.latch_unsignaled=1
+debug.stagefright.ccodec=1
+persist.sys.colormode_modes=256:native;257:p3;0:standard
+persist.sys.sf.color_mode=0
+persist.sys.sf.native_mode=256
+
+# DPM
+persist.vendor.dpm.feature=1
+
+# DRM
+drm.service.enabled=true
+qcom.hw.aac.encoder=true
+
+# Fwk detect
+ro.vendor.qti.va_aosp.support=1
+
+# GNSS
+sys.qca1530=detect
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+
+# Media
+media.aac_51_output_enabled=true
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+media.stagefright.enable-aac=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-http=true
+media.stagefright.enable-player=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+media.stagefright.thumbnail.prefer_hw_codecs=true
+mmp.enable.3g2=true
+# Disabled to enhance performance
+#persist.sys.force_sw_gles=1
+ro.media.recorder-max-base-layer-fps=60
+vendor.media.omx=1
+vendor.mm.enable.qcom_parser=16776959
+
+# NFC
+ro.nfc.port=I2C
+
+# Tethering - allow without requiring a provisioning app
+# (for devices that check this)
+net.tethering.noprovisioning=true
+
+# Time
+persist.timed.enable=true
+
+# Radio
+persist.vendor.data.mode=concurrent
+persist.vendor.radio.atfwd.start=true
+persist.vendor.radio.uicc_se_enabled=false
+ril.subscription.types=NV,RUIM
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+ro.radio.noril=true
+
+# RmNet Data
+persist.data.df.agg.dl_pkt=10
+persist.data.df.agg.dl_size=4096
+persist.data.df.dev_name=rmnet_usb0
+persist.data.df.dl_mode=5
+persist.data.df.iwlan_mux=9
+persist.data.df.mux_count=8
+persist.data.df.ul_mode=5
+persist.data.wda.enable=true
+persist.rmnet.data.enable=true
+ro.vendor.use_data_netmgrd=true
+
+# Secure flags
+#ro.secure=0
+#ro.allow.mock.location=1
+
+# Sensors
+persist.vendor.sensors.enable.mag_filter=true
+
+# Simulated sdcard
+persist.fuse_sdcard=true
+
+# Navigation bar
+qemu.hw.mainkeys=0
+
+# VoIP
+use.voice.path.for.pcm.voip=true
+
+# Wi-Fi
+config.disable_rtt=true
+persist.sys.wfd.virtual=0
+
+# Graphics
+dev.pm.dyn_samplingrate=1
+ro.gfx.driver.0=com.zui.ugd
+ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.kona.api30
+ro.kernel.qemu.gles=0
