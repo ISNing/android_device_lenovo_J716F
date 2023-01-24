@@ -270,6 +270,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
+    android.hardware.lights-service.qti \
     lights.kona
 
 # Local Time
